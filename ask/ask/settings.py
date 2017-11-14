@@ -11,10 +11,18 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 """
 
 import os
+#BASE_DIR=os.path.abspath(__file__)
+#BASE_DIR=os.path.abspath(BASE_DIR)
+#BASE_DIR=os.path.dirname(BASE_DIR)
+#TEMPLATE_DIRS =(
+#	BASE_DIR+'/templates',
+#)
+#STATIC_ROOT=BASE_DIR+'/static'
+
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
+DEFAULT_CONTENT_TYPE="text/html"
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
