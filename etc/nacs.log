@@ -24,3 +24,8 @@
 127.0.0.1 - - [09/Nov/2017:15:52:14 +0200] "GET /hello/?a=1&a=2 HTTP/1.1" 502 584 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36"
 127.0.0.1 - - [09/Nov/2017:15:52:44 +0200] "GET /hello/?a=1&a=2 HTTP/1.1" 200 16 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36"
 127.0.0.1 - - [09/Nov/2017:15:54:41 +0200] "GET /hello/?a=1&a=2 HTTP/1.1" 200 18 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36"
+127.0.0.1 - - [09/Nov/2017:16:07:29 +0200] "GET /hello/?a=1&a=2&b=2 HTTP/1.1" 200 22 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36"
+127.0.0.1 - - [09/Nov/2017:16:07:48 +0200] "GET / HTTP/1.1" 200 396 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36"
+127.0.0.1 - - [09/Nov/2017:16:07:48 +0200] "GET /favicon.ico HTTP/1.1" 404 209 "http://localhost/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36"
+127.0.0.1 - - [14/Nov/2017:12:42:38 +0200] "GET /favicon.ico HTTP/1.1" 404 209 "http://localhost/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36"
+127.0.0.1 - - [14/Nov/2017:12:43:15 +0200] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36"
