@@ -17,5 +17,12 @@ from django.conf.urls import url
 from django.contrib import admin
 
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
+    url(r'^/',ask.views.test,name='/'),
+    url(r'^admin/', admin.site.urls,name='admin'),
+    url(r'^login/',ask.views.test,name='login'),
+    url(r'^signup/',ask.views.test,name='signup'),
+    url(r'^questions/^\d+$/',ask.views.test,name='questions'),
+    url(r'^ask/',ask.views.test,name='ask'),
+    url(r'^popular/',ask.views.test,name='popular'),
+    url(r'^new/',ask.views.test,name='new')
 ]
